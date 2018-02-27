@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+body{
+    background:white;
+}
+ul{
+    background: black;
+    border: 1px solid black;
+    padding: 0px;
+    color: white;
+}
