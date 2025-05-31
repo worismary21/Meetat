@@ -6,9 +6,14 @@ import Profile from "./Components/Profile";
 import Place from "./Components/Place";
 import Notifications from "./Components/Notifications";
 import {Link, Switch, Route, Redirect} from 'react-router-dom';
-import firebase from 'firebase';
-import {auth,provider} from './client';
 import UpdateProfile from "./Components/UpdateProfile";
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+
+
+
+
 class App extends Component{
    constructor(props){
     super(props);

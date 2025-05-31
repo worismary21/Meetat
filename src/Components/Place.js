@@ -1,5 +1,9 @@
 import React, {Component} from "react";
-import firebase from "firebase";
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore'; // 
+import { getAuth } from 'firebase/auth';
+
+
 class Place extends Component{
     constructor(){
         super();

@@ -1,5 +1,7 @@
 import React, {Component} from "react";
-import firebase from "firebase";
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore'; // 
+import { getAuth } from 'firebase/auth';
 import jquery, {$} from "jquery";
 import {Redirect} from "react-router-dom";
 class UpdateProfile extends Component{
