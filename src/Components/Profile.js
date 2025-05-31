@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore'; 
 import { getAuth } from 'firebase/auth';
+
+
  class Profile extends Component{
      render(){
          var user = firebase.auth().currentUser;

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { loginWithFacebook } from '../client'; // Adjust the import path as necessary
 
  class Page extends Component{
      render(props){ 
@@ -51,7 +52,7 @@ import React, {Component} from "react";
     </ul>
   </div>
   <hr/>
-  <button onClick={this.props.onClick} style={btnstyle} className="btn blue">Continue with Facebook</button>
+  <button onClick={loginWithFacebook} style={btnstyle} className="btn blue">Continue with Facebook</button>
         </div>
          )
      }
