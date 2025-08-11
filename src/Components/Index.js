@@ -7,17 +7,14 @@ import { loginWithFacebook } from '../client'; // Adjust the import path as nece
          let img = ["https://scontent.flos6-1.fna.fbcdn.net/v/t1.0-9/26231519_1697948836922997_1058310476786115456_n.jpg?_nc_eui2=v1%3AAeFMQWLwtTiMLPx4dFqz1sQmljhpjwiHfisaar8zGAo0de-MqJbKXgabVdS-OwY8sAC1Ci9YJBYaxhfUiGxbBAgelmuJr5d8TNg2-WDxAjcf0w&oh=68d74c0f64300d61a08ed02f31e0b1c4&oe=5B1DBD0D"];
          return(
              <div>
-        <h5 className="center-align"> Me@ helps you Connect with your buddies around campus,Find new friends around you, chat, hangout, and leave a social review of your  hangouts</h5>
+        <h5 className="center-align"> Meet@ helps you Connect with your buddies around campus,Find new friends around you, chat, hangout, and leave a social review of your  hangouts</h5>
         <img width="100%" src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/GwFs3_KxNjS.png"/>
         <div>
+          <button className="btn red" style={btnstyle} onClick={this.props.onLogin}>Login</button>
+          <button className="btn red" style={btnstyle} onClick={this.props.onRegister}>Sign Up</button>
             <img className="responsive-img" src ={img[0]}/>
              <ul className="collection with-header">
-        <li className="collection-header white"><h4>Woris jakes</h4></li>
-        <li className="collection-item black">Social points: 3200pts</li>
-        <li className="collection-item black">Current Location: Abiola hostel</li>
-        <li className="collection-item black"><i className="material-icons blue">thumb_up</i><span className ="badge white">100</span> </li>
-        <li className="collection-item black"><i className="material-icons blue">thumb_down</i><span className ="badge white">0</span></li>
-        <li className="collection-item black"><button> Send hangout request</button></li>
+       
       </ul>
         </div>
     <div className="slider">
